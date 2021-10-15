@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+@import url('fontawesome-free-6.0.0-beta2-web/css/all.min.css');
+body {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    margin: 0;
+}
+i{
+    padding-right: 5px;
+}
+li{
+    padding: 25px 0;
+    font-weight: 550;
+    font-size: 14px;
+    margin: 0 18px; 
+}
+p{
+    opacity: .7;
+    color: black;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+}
+h1{
+    font-size: 55px;
+    line-height: 59px;
+    color: #ffffff;
+    font-weight: 600;
+}
+h2{
+    font-size: 2.3rem;
+    line-height: 3rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #232323;
+    font-family: Poppins,sans-serif;
+}
+h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 6px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-top: 150px;
+    color: pink;
+}
+span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #828282;
+}
+#header{
+    color: #232323;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+#header .row {
+    justify-content: space-between;
+}
+#banner{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    padding-bottom: 200px;
+}
+#banner p{
+    margin: 0 15%;
+    margin-bottom: 40px;
+    padding-top: 200px;
+    color: #ffffff;
+}
+#banner h1{
+    margin: 0 15%;
+    margin-bottom: 55px;
+}
+#banner a{
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    padding: 12px 28px;
+    margin-right: 0px;
+    color: #ffffff;
+}
+#combine{
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#combine span{
+    color: black;
+}
+#combine i{
+    margin-right: 35px;
+    color: #b7b7b7
+}
+#combine p{
+    color: #232323;
+}
+#combine a{
+    border: 2px solid #b7b7b7;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 17px;
+}
+#combine a:hover{
+    background-color:black;
+    color: #ffffff;
+    border: black;
+}
+#litho{
+    background-color: #f7f8fc;
+    padding-bottom: 80px;
+}
+#litho i{
+    color: pink;
+    padding-right: 40px;
+}
+#litho h2{
+    text-align: center;
+    font-size: 33px;
+    line-height: 45px;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 60px;
+}
+#beauty{
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-position: 45%    ;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom:140px;
+}
+#beauty h1{
+    font-size: 2.85rem;
+    line-height: 3.4rem;
+    letter-spacing: -.5px;
+    font-family: Poppins,sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 15px;
+}
+#beauty span{
+    font-family: Poppins,sans-serif;
+    color: white;
+}
+#beauty i{
+background-color: #3452ff;
+border-radius: 50% ;
+color:white;
+padding: 25px;
+}
+#stay{
+    padding-right:15%;
+    padding-left: 15%;
+}
+#stay h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 70px;
+}
+#stay img{
+    width: 270px;
+}
+#stay a{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    width: 35%;
+}
+.col0{
+    width: 350px;
+    margin-bottom: 60px;
+}
+.col{
+    margin-bottom: 60px;
+    padding: 0px;
+    max-width: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col2{
+    padding: 40px 30px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    max-width: 500px;
+}
+.col-grande{
+    margin-left: 17%;
+    margin-right: 15%;
+}
+.row{
+    display: flex;/* hace que los objetos que contiene, por defecto estén uno al costado del otro */
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.color{
+    background: linear-gradient(to right,#556fff,#ff798e,#556fff);
+    margin-left: 15%;
+    text-decoration: none;
+   
+}
+.padd{
+    padding-top: 84px;
+}
+.display{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+.menu{
+    list-style: none;/* Elimina la viñeta de la lista */
+
+    /* Elimina el margin y padding por defecto de la lista */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+}
+.menu li a{
+    display: block;/* De esta manera el objeto se comporta como estilo en bloque
+    asi los padding no se desbordan */
+}
+.menu-main li a{
+    color: #232323;
+    text-decoration: none;
+}
+.menu-main li a:hover{
+    text-decoration: none;
+    opacity: .7;
+}   
